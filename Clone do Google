@@ -1,0 +1,56 @@
+
+/* Projeto: Clone do Google */
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone do Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .logo {
+            margin-top: 100px;
+        }
+        .search-box {
+            margin-top: 20px;
+        }
+        input {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #f8f9fa;
+            border: 1px solid #dfe1e5;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #e8e9eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+    <div class="search-box">
+        <input type="text" placeholder="Pesquise no Google">
+    </div>
+    <div class="buttons">
+        <button>Pesquisa Google</button>
+        <button>Estou com sorte</button>
+    </div>
+</body>
+</html>
